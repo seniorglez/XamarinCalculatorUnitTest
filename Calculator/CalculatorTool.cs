@@ -14,8 +14,33 @@ namespace Calculator
         public static double CalculateExpression(String ex)
         {
             string[] result = Regex.Split(ex, @"(?=[\^*+\-\/])|(?<=[\^*+\-\/])");
-            foreach (String s in result) Console.WriteLine(s);
-            return 1f;
+
+            double res = Double.Parse(result[0]);
+            for (int i = 1; i < result.Length - 1; i += 2)
+            {
+
+                switch (result[i])
+                {
+                    case "+":
+                        res = res + Double.Parse(result[i + 1]);
+                        break;
+                    case "-":
+                        res = res - Double.Parse(result[i + 1]);
+                        break;
+                    case "/":
+                        res = res / Double.Parse(result[i + 1]);
+                        break;
+                    case "*":
+                        res = res * Double.Parse(result[i + 1]);
+                        break;
+                    default://^
+                        res = (Math.Pow(res, Double.Parse(result[i + 1])));
+                        break;
+                }
+            }
+            return res;
         }
+           
+        
     }
 }

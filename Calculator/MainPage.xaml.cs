@@ -55,6 +55,7 @@ namespace Calculator
                     break;
                 case "=":
                     ans = CalculatorTool.CalculateExpression(input).ToString();
+                    updateView();
                     break;
                 case "DEL":
                     input = input.Remove(input.Length - 1);
