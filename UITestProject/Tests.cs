@@ -30,5 +30,37 @@ namespace UITestProject
         {
             app.Screenshot("First screen.");
         }
+
+        /*
+        [Test]
+        public void TestRepl()
+        {
+            app.Repl();
+        }
+        */
+        [Test]
+        public void TestButtons()
+        {
+            app.Tap(b => b.Marked("Button_1"));
+            app.Tap(b => b.Marked("Button_7"));
+            app.Tap(b => b.Marked("Button_1"));
+            app.Tap(b => b.Marked("Button_2"));
+            app.Tap(b => b.Marked("Button_-"));
+            app.Tap(b => b.Marked("Button_2"));
+            app.Tap(b => b.Marked("Button_^"));
+            app.Tap(b => b.Marked("Button_3"));
+            app.Tap(b => b.Marked("Equals"));
+        }
+
+        [Test]
+        public void TestMonkeyUser()
+        {
+            app.Tap(b => b.Marked("Button_-"));
+            app.Tap(b => b.Marked("Button_^"));
+            app.Tap(b => b.Marked("Button_."));
+            app.Tap(b => b.Marked("Button_/"));
+            app.Tap(b => b.Marked("Button_*"));
+            app.Tap(b => b.Marked("Equals"));
+        }
     }
 }
