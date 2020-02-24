@@ -49,27 +49,27 @@
             <Label Grid.ColumnSpan="4" x:Name="InputLabel" Style="{x:StaticResource labelInput}"/>
             <Label Grid.Row="1" Grid.ColumnSpan="4" x:Name="OutputLabel" Style="{x:StaticResource labelResult}"/>
             <Button Grid.Row="2" Text="DEL" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="2" Grid.Column="1" Text="ANS" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="2" Grid.Column="2" Text="^" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="2" Grid.Column="3" Text="/" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="ANS" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_ANS"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="^" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_^"/>
+            <Button Grid.Row="2" Grid.Column="3" Text="/" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_/"/>
 
-            <Button Grid.Row="3" Text="1" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="3" Grid.Column="1" Text="2" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="3" Grid.Column="2" Text="3" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="3" Grid.Column="3" Text="*" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
+            <Button Grid.Row="3" Text="1" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_1"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="2" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_2"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="3" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_3"/>
+            <Button Grid.Row="3" Grid.Column="3" Text="*" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_*"/>
 
-            <Button Grid.Row="4" Text="4" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="4" Grid.Column="1" Text="5" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="4" Grid.Column="2" Text="6" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="4" Grid.Column="3" Text="-" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
+            <Button Grid.Row="4" Text="4" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_4"/>
+            <Button Grid.Row="4" Grid.Column="1" Text="5" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_5"/>
+            <Button Grid.Row="4" Grid.Column="2" Text="6" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_6"/>
+            <Button Grid.Row="4" Grid.Column="3" Text="-" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_-"/>
 
-            <Button Grid.Row="5" Text="7" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="5" Grid.Column="1" Text="8" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="5" Grid.Column="2" Text="9" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="5" Grid.Column="3" Text="+" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked"/>
+            <Button Grid.Row="5" Text="7" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_7"/>
+            <Button Grid.Row="5" Grid.Column="1" Text="8" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_8"/>
+            <Button Grid.Row="5" Grid.Column="2" Text="9" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_9"/>
+            <Button Grid.Row="5" Grid.Column="3" Text="+" Style="{x:StaticResource buttonOperation}" Clicked="Button_Clicked" AutomationId="Button_+"/>
 
-            <Button Grid.Row="6" Text="0" Grid.ColumnSpan="2" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="6" Grid.Column="2" Text="." Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked"/>
-            <Button Grid.Row="6" Grid.Column="3" Text="=" Style="{x:StaticResource buttonEquals}" Clicked="Button_Clicked"/>
+            <Button Grid.Row="6" Text="0" Grid.ColumnSpan="2" Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_0"/>
+            <Button Grid.Row="6" Grid.Column="2" Text="." Style="{x:StaticResource buttonNumber}" Clicked="Button_Clicked" AutomationId="Button_."/>
+            <Button Grid.Row="6" Grid.Column="3" Text="=" Style="{x:StaticResource buttonEquals}" Clicked="Button_Clicked" AutomationId="Equals"/>
         </Grid>
 </ContentPage>

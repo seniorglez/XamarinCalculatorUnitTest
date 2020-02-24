@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.iOS", "Calculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{43E8E1B7-D2A1-44A1-9CD0-609D4E368DD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestProject", "UITestProject\UITestProject.csproj", "{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{43E8E1B7-D2A1-44A1-9CD0-609D4E368DD5}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{43E8E1B7-D2A1-44A1-9CD0-609D4E368DD5}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{43E8E1B7-D2A1-44A1-9CD0-609D4E368DD5}.Release|iPhone.Build.0 = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{FF009D1E-FAFD-4B5F-9597-9518A4A957DD}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
